@@ -1,0 +1,18 @@
+{
+  "FL-01": {
+    "type": "Forklift",
+    "last_service": "2025-01-15"
+  },
+  "CV-07": {
+    "type": "Conveyor",
+    "last_service": "2026-09-29"
+  },
+  "PJ-02": {
+    "type": "Pallet Jack",
+    "last_service": "2026-10-14"
+  },
+  "CR-01": {
+    "type": "Crane",
+    "last_service": "2026-10-14"
+  }
+}
