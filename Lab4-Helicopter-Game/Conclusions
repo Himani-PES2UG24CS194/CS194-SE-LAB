@@ -1,0 +1,39 @@
+# Lab 4: Helicopter Game
+
+## Tasks Completed
+
+### Task 1: Movement & Boundary Controls
+- Added damping to vertical velocity for smooth stopping.
+- Clamped vertical speed to `MAX_SPEED`.
+- Added top and bottom collision boundaries so the helicopter stays on screen.
+- **Videos:**
+  - Before Fix: `media/BEFORE FIX.mp4`
+  - After Fix: `media/AFTER TASK1.mp4`
+
+---
+
+### Task 2: Collision Detection & Game Over
+- Implemented AABB rectangle collision detection between the helicopter and top/bottom obstacle walls.
+- Set game over state and displayed "GAME OVER" banner upon collision.
+- **Video:** `media/task2 game over.mp4`
+
+---
+
+### Task 3: Score Tracking & Reset System
+- Added score counter that increments when passing obstacles.
+- Added key handler for `R` key to reset the game state and restart.
+- **Video:** `media/task3 score.mp4`
+
+---
+
+### Task 4: Shield Power-Up System
+- Implemented active shield state (`has_shield`).
+- Added shield aura rendering in `renderer.py`.
+- Updated collision logic so the shield absorbs 1 collision and destroys the obstacle before deactivating.
+- **Video:** `media/task4.mp4`
+
+---
+
+## How to Run
+```bash
+python main.py
